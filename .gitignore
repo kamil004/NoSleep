@@ -1,0 +1,25 @@
+# Xcode
+*.xcodeproj/
+project.xcworkspace/
+*.xcworkspace/
+
+# Swift Package Manager
+.build/
+Packages/
+package.resolved
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Build output
+dist/*.app/
+*.app/
+
+# Icons temp
+*.iconset/
+
+# Build artifacts
+*.o
+*.swiftdoc
+*.swiftinterface
